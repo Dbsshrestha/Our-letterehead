@@ -1,0 +1,10 @@
+/* Header.css */
+
+.Navbar.Brand {
+  display: flex;
+  align-items: center;
+}
+
+.white-bg {
+  background-color: rgb(255, 254, 254); /* White */
+}

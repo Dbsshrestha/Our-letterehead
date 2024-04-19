@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.wrapper {
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+  color: #fff;
+}
+
+.input-box .icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+
+.wrapper .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin-bottom: 15px;
+}
+
+.remember-forgot label input {
+  accent-color: #fff;
+  margin-right: 4px;
+}
+
+.remember-forgot a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.wrapper button {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* Style for the validation text */
+.validation-box .error,
+.validation-box .valid,
+.validation-box .invalid {
+  color: #000; /* Set the color for the text */
+  background-color: #fff; /* Set the background color to white */
+  font-size: 14px; /* Adjust the font size */
+  margin-top: 5px; /* Add some space between the input and the error message */
+  border: 1px solid #000; /* Add a border to create a rectangle shape */
+  padding: 10px; /* Add padding to the text for better appearance */
+  display: block; /* Display the text in a block to apply the border and padding */
+  border-radius: 5px; /* Apply border-radius to create rounded corners */
+}
+
+
+/* Style for the password validation */
+.password-validation {
+  color: #fff;
+  font-size: 14px;
+  margin-top: -2%;
+}
+
+.wrapper .confirm-password-input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 80px; /* Increase the margin-bottom to create a bigger space */
+  }
+  
+
+  .wrapper .password {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 80px;
+    margin-top: 10px;
+  }
+
+  .wrapper .Gmail{
+    margin-top: 3px;
+  }
+
+  .wrapper .confirm-password-validation{
+    color: #000; /* Set the color for the text */
+    background-color: #fff; /* Set the background color to white */
+    font-size: 14px; /* Adjust the font size */
+    margin-top: 5px; /* Add some space between the input and the error message */
+    border: 1px solid #000; /* Add a border to create a rectangle shape */
+    padding: 10px; /* Add padding to the text for better appearance */
+    display: block; /* Display the text in a block to apply the border and padding */
+    border-radius: 5px;
+  }
