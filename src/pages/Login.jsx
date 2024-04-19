@@ -77,7 +77,7 @@ const Login = () => {
         </div>
         <div className="google-login-container">
           <GoogleLogin
-            clientId="YOUR_CLIENT_ID"
+            clientId="565407833235-tqv9nd8efn1v8gosqmr2vndh4nkbfgli.apps.googleusercontent.com"
             buttonText="Login with Google"
             onSuccess={handleGoogleLoginSuccess}
             onFailure={handleGoogleLoginFailure}
