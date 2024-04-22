@@ -1,0 +1,19 @@
+/* Header.css */
+
+.Navbar.Brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .white-bg {
+    background-color: rgb(255, 254, 254); /* White */
+  }
+
+  .logout-link {
+    background-color: red; /* Red background */
+    color: white; /* White text */
+    padding: 10px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  
