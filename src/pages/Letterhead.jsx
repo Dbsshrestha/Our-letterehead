@@ -1,117 +1,132 @@
 import React from "react";
-// import Header from "../Components/Header/Header";
 import "./letterhead.css";
+import image from "../assets/letterheadimg.png";
+import DesignCard from "./designCard";
+import Footer from "../Components/footer/footer";
 
 const Letterhead = () => {
-  // Render the Letterhead component
   return (
-    <div className="w-full flex justify-center mt-[5rem] border">
-      <div className="w-[80%] border  mt-4">
+    <div className="w-full flex justify-center">
+      <div className="w-[80%] mt-4">
         <div className="text-center">
-          <h1 className="text-[32px] font-semibold">Introduction</h1>
-          <p className="px-24">
+          <h1 className="text-[32px] font-semibold text-[#22092C]">
+            Introduction
+          </h1>
+          <p className=" text-[18px] px-24 text-[#22092C]">
             Elevate Your Brand with Stunning Letterhead Design. Learn about the
             importance of letterhead in branding and communication, key elements
             of effective design, best practices, examples, and DIY tips.
           </p>
         </div>
-        <div className=" border mt-8">
-          <div className="content">
-            <h2 className="text-[24px]">Introduction</h2>
-            <p>
-              Begin with the importance of letterhead in branding and
-              communication. Emphasize how a well-designed letterhead can leave
-              a lasting impression on clients, partners, and stakeholders.
-            </p>
-            <div>
-              <h2>Why Letterhead Matters?</h2>
-              <p>
-                Discuss the significance of letterhead in professional
-                correspondence. Highlight how it conveys professionalism,
-                trustworthiness, and brand identity.
-              </p>
-
-              <h2>Key Elements of Effective Letterhead Design</h2>
-              <ul>
-                <li>
-                  Branding: Incorporating logo, colors, and typography
-                  consistent with your brand identity.
-                </li>
-                <li>
-                  Contact Information: Ensuring clear and concise placement of
-                  contact details.
-                </li>
-                <li>
-                  White Space: Utilizing space effectively for a clean and
-                  uncluttered look.
-                </li>
-                <li>
-                  Visual Hierarchy: Organizing elements to guide the reader's
-                  attention.
-                </li>
-                <li>
-                  Quality Paper: Choosing the right paper stock to enhance the
-                  tactile experience.
-                </li>
-              </ul>
+        <div className="mt-8">
+          <div className=" p-2">
+            <div className="w-full flex justify-center gap-4 items-center text-[#222]">
+              <div className=" w-[50%]">
+                <h2 className="text-[24px] font-semibold mb-2 text-[#22092C]">
+                  Why Letterhead Matters?
+                </h2>
+                <p className="text-[16px] mb-2 opacity-90 text-justify text-[#22092C]">
+                  Your brand's letterhead isn't just stationery; it's a tangible
+                  representation of your business's identity and values. A
+                  well-crafted letterhead speaks volumes about your
+                  professionalism and attention to detail, making a lasting
+                  impression on clients and partners. From the subtle
+                  incorporation of your logo, colors, and typography to the
+                  strategic placement of contact information, each element plays
+                  a crucial role in conveying your brand's identity.
+                </p>
+                <ul className="flex flex-col gap-2 opacity-90 text-[#22092C]">
+                  <li>
+                    <span className="font-semibold pr-1 text-[16px]">
+                      Branding:
+                    </span>
+                    Incorporating logo, colors, and typography consistent with
+                    your brand identity.
+                  </li>
+                  <li>
+                    <span className="font-semibold pr-1 text-[16px]">
+                      Contact Information:
+                    </span>
+                    Ensuring clear and concise placement of contact details.
+                  </li>
+                  <li>
+                    <span className="font-semibold pr-1 text-[16px]">
+                      White Space:
+                    </span>
+                    Utilizing space effectively for a clean and uncluttered
+                    look.
+                  </li>
+                  <li>
+                    <span className="font-semibold pr-1 text-[16px]">
+                      Visual Hierarchy:
+                    </span>
+                    Organizing elements to guide the reader's attention.
+                  </li>
+                  <li>
+                    <span className="font-semibold pr-1 text-[16px]">
+                      Quality Paper:
+                    </span>
+                    Choosing the right paper stock to enhance the tactile
+                    experience.
+                  </li>
+                  <li>
+                    <span className="font-semibold pr-1 text-[16px]">
+                      Typography:
+                    </span>
+                    Selecting fonts that reflect your brand's personality and
+                    enhance readability.
+                  </li>
+                  <li>
+                    <span className="font-semibold pr-1 text-[16px]">
+                      Print-Friendly:
+                    </span>
+                    Designing with print in mind to ensure your letterhead looks
+                    great on paper.
+                  </li>
+                </ul>
+              </div>
+              <div className=" w-[40%]">
+                <img src={image} alt="Example Image" className="" />
+              </div>
             </div>
-            <div>
-              <h2>Design Tips and Best Practices</h2>
-              <ul>
-                <li>
-                  Keep it Simple: Avoid overcrowding the letterhead with
-                  unnecessary elements.
-                </li>
-                <li>
-                  Consistency is Key: Maintain consistency with other branding
-                  materials for brand recognition.
-                </li>
-                <li>
-                  Use High-Quality Images: If including images, ensure they are
-                  high-resolution and relevant to your brand.
-                </li>
-                <li>
-                  Consider Different Formats: Explore digital and print formats
-                  to cater to various communication channels.
-                </li>
-                <li>
-                  Test and Iterate: Gather feedback and make adjustments to
-                  refine your design.
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2>Examples of Effective Letterhead Designs</h2>
-              <p>
-                Include visual examples of well-designed letterheads from
-                various industries. Analyze what makes each design successful
-                and how it aligns with the brand's identity.
+            <DesignCard />
+            <div className="opacity-90 text-[#22092C]">
+              <h2 className="text-[24px] font-semibold mt-8 mb-2 ">
+                Conclusion
+              </h2>
+              <p className="text-justify">
+                In conclusion, the significance of a well-crafted letterhead
+                cannot be overstated. It serves as a visual representation of
+                your brand's identity and values, leaving a lasting impression
+                on clients, partners, and stakeholders. By incorporating key
+                design elements such as branding consistency, clear contact
+                information, effective use of white space, and attention to
+                detail, you can elevate your brand's communication and
+                professionalism.
               </p>
-
-              <h2>DIY Letterhead Design</h2>
-              <p>
-                Provide step-by-step instructions or resources for creating a
-                letterhead using design software or online tools. Include
-                templates or guidelines for users to follow.
+              <p className="text-justify">
+                We urge you to take the insights gained from this discussion and
+                apply them to your own branding efforts. Whether you're
+                redesigning an existing letterhead or creating one from scratch,
+                remember to keep it simple, consistent, and reflective of your
+                brand's personality. By investing in professional letterhead
+                design, you not only enhance your brand's credibility but also
+                establish trust and credibility with your audience.
               </p>
-
-              <h2>Conclusion</h2>
-              <p>
-                Summarize the key points discussed and reiterate the importance
-                of investing in professional letterhead design. Encourage
-                readers to apply the tips and best practices to enhance their
-                own branding efforts.
-              </p>
-
-              <h2>Call to Action</h2>
-              <p>
-                Invite readers to share their thoughts on letterhead design or
-                reach out for professional design assistance if needed. Provide
-                links to relevant resources or your design services.
+              <p className="text-justify">
+                Furthermore, we welcome your feedback and insights on letterhead
+                design. Feel free to share your thoughts, experiences, and
+                challenges in the comments section below. If you require
+                professional design assistance or consultation, our team is here
+                to help. Reach out to us for personalized guidance, resources,
+                or design services tailored to your needs. Together, let's
+                elevate your brand's communication through stunning letterhead
+                design.
               </p>
             </div>
           </div>
-        </div>{" "}
+        </div>
+        <Footer />
       </div>
     </div>
   );

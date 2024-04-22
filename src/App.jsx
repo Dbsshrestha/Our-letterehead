@@ -18,7 +18,7 @@ function App() {
         <Header />
         <div className="login-container">
           <Routes>
-            <Route path="/letterhead" element={<Letterhead />} />
+            <Route path="/" element={<Letterhead />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
           </Routes>
@@ -40,3 +40,5 @@ function App() {
 }
 
 export default App;
+
+
