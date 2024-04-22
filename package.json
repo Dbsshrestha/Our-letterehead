@@ -116,6 +116,8 @@
     "fs.realpath": "^1.0.0",
     "function-bind": "^1.1.2",
     "function.prototype.name": "^1.1.6",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
     "mime-db": "^1.52.0",
     "mime-types": "^2.1.35",
     "minimatch": "^3.1.2",
@@ -127,15 +129,13 @@
     "no-case": "^2.3.2",
     "node-releases": "^2.0.14",
     "nodemailer": "^6.9.10",
+    "pdf-lib": "^1.17.1",
     "qrcode.react": "^3.1.0",
-    "jspdf": "^2.5.1",
-    "html2canvas": "^1.4.1",
     "qs": "^6.11.0",
     "queue-microtask": "^1.2.3",
     "raf": "^3.4.1",
     "range-parser": "^1.2.1",
     "raw-body": "^2.5.2",
-    "pdf-lib": "^1.17.1",
     "react": "^17.0.2",
     "react-async-script": "^1.2.0",
     "react-bootstrap": "^2.10.0",
@@ -204,6 +204,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.2.1"
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
   }
 }
