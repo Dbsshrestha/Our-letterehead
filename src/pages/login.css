@@ -137,3 +137,15 @@ code {
   color: #ff3333;
   margin-top: 10px;
 }
+
+
+.login-container {
+  /* Remove margin-top */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+  background: url("./assets/background.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}

@@ -9,13 +9,12 @@ import Main from './pages/Main';
 import Another from './pages/Another';
 import './App.css';
 // import Userdashboard from './pages/Userdashboard';
-// import { gapi } from 'gapi-script';
+import { gapi } from 'gapi-script';
 
 function App() {
   return (
     <Router>
       <div>
-        <Header />
         <div className="login-container">
           <Routes>
             <Route path="/" element={<Letterhead />} />
@@ -31,12 +30,12 @@ function App() {
       </div>
     </Router>
   );
-  // gapi.load("client:auth2", () => {
-  //   gapi.client.init({
-  //     clientId: "565407833235-tqv9nd8efn1v8gosqmr2vndh4nkbfgli.apps.googleusercontent.com",
-  //     plugin_name: "chat"
-  //   });
-  // });
+  gapi.load("client:auth2", () => {
+    gapi.client.init({
+      clientId: "565407833235-tqv9nd8efn1v8gosqmr2vndh4nkbfgli.apps.googleusercontent.com",
+      plugin_name: "chat"
+    });
+  });
 }
 
 export default App;

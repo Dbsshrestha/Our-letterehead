@@ -66,7 +66,7 @@ const Login = () => {
   
 
   return (
-    <div className='wrapper'>
+    <div className='wrapper bg-[#a49cb3]'>
       <form onSubmit={handleFormSubmit}>
         <h1>Login</h1>
         <div className='input-box'>

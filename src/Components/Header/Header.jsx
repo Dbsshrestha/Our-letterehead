@@ -3,12 +3,12 @@ import "./Header.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+// import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../../assets/Logo.png";
 
 const Header = () => {
   return (
-    <div className="white-bg">
+    <div className="white-bg h-[100px]">
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href="/" className="d-flex align-items-center">

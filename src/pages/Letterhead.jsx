@@ -6,19 +6,19 @@ import Footer from "../Components/footer/footer";
 
 const Letterhead = () => {
   return (
-    <div className="w-full flex justify-center">
-      <div className="w-[80%] mt-4">
+    <div className=" w-full mt-[30rem] flex justify-center">
+      <div className="w-[80%]">
         <div className="text-center">
           <h1 className="text-[32px] font-semibold text-[#22092C]">
             Introduction
           </h1>
-          <p className=" text-[18px] px-24 text-[#22092C]">
+          <p className=" text-[18px] mt-2 px-[8rem] text-[#22092C]">
             Elevate Your Brand with Stunning Letterhead Design. Learn about the
             importance of letterhead in branding and communication, key elements
             of effective design, best practices, examples, and DIY tips.
           </p>
         </div>
-        <div className="mt-8">
+        <div className="mt-10">
           <div className=" p-2">
             <div className="w-full flex justify-center gap-4 items-center text-[#222]">
               <div className=" w-[50%]">
