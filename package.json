@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
   "main": "vite.config.js",
+  "homepage": "https://uniqueletterhead.com/",
   "dependencies": {
     "@restart/hooks": "^0.4.16",
     "@restart/ui": "^1.6.8",
